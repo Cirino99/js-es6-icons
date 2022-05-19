@@ -43,6 +43,7 @@ header h4 {
     align-items: center;
     flex-direction: column;
     border-radius: 20px;
+    filter: drop-shadow(1px 1px 1px gray);
 }
 
 .blue {
