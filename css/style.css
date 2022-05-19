@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header div:last-child{
+    height: 70px;
+    background-color: #29b1dd;
+}
+
+#filtro-tipo {
+    width: 100px;
+}
+
+#grid {
+    background-color: #dddddd;
+}
+
+.card {
+    width: 280px;
+    height: 120px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 40px;
+}
+
+.card-icon {
+    font-size: 40px;
+    color: blue;
+}
