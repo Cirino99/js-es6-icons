@@ -1,4 +1,4 @@
-[
+const myArr = [
 	{
 		name: 'cat',
 		prefix: 'fa-',
