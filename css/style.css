@@ -4,31 +4,56 @@
     box-sizing: border-box;
 }
 
-header div:last-child{
+
+body {
+    background-color: #dddddd;
+}
+
+/* header */
+header div:first-child {
+    height: 50px;
+    color: #29b1dd;
+    background-color: white;
+}
+header div:last-child {
     height: 70px;
     background-color: #29b1dd;
 }
-
+header h4 {
+    color: white;
+}
 #filtro-tipo {
     width: 100px;
 }
 
+/* main */
 #grid {
-    background-color: #dddddd;
+    gap: 100px;
+    padding: 20px;
+    width: calc(100% - 40px);
+    margin: 0 auto;
 }
 
 .card {
-    width: 280px;
+    width: 270px;
     height: 120px;
     background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin: 40px;
+    border-radius: 20px;
 }
 
-.card-icon {
+.card-icon-animal {
     font-size: 40px;
     color: blue;
+}
+.card-icon-vegetable {
+    font-size: 40px;
+    color: #ffa500;
+}
+.card-icon-user {
+    font-size: 40px;
+    color: #800080;
 }
