@@ -4,6 +4,7 @@ const select = document.getElementById('filtro-tipo');
 
 select.addEventListener('change',selectArray);
 // manipolazion e del dom
+select.value = 'all';
 stampaElementiArr(myArr);
 function selectArray(){
     console.log(select.value);
