@@ -45,15 +45,15 @@ header h4 {
     border-radius: 20px;
 }
 
-.card-icon-animal {
+.blue {
     font-size: 40px;
     color: blue;
 }
-.card-icon-vegetable {
+.orange {
     font-size: 40px;
-    color: #ffa500;
+    color: orange;
 }
-.card-icon-user {
+.green {
     font-size: 40px;
-    color: #800080;
+    color: green;
 }

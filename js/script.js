@@ -36,12 +36,7 @@ function stampaElementiArr(arr){
         const nome = document.createElement('p');
         icon.classList.add(element.family);
         icon.classList.add(element.prefix + element.name);
-        if (element.type === 'animal')
-            icon.classList.add('card-icon-animal');
-        else if (element.type === 'vegetable')
-            icon.classList.add('card-icon-vegetable');
-        else
-            icon.classList.add('card-icon-user');
+        icon.classList.add(element.color);
         console.log(icon);
         nome.innerText = element.name.toUpperCase();
         card.append(icon);
