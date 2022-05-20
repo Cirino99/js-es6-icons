@@ -7,7 +7,6 @@ select.addEventListener('change',selectArray);
 select.value = 'all';
 stampaElementiArr(myArr);
 function selectArray(){
-    console.log(select.value);
     switch(select.value){
         case 'animal':
             const arrAnimal = myArr.filter((element)=>element.type === 'animal');
@@ -20,7 +19,7 @@ function selectArray(){
         case 'user':
             const arrUser = myArr.filter((element)=>element.type === 'user');
             stampaElementiArr(arrUser);
-            break
+            break;
         default:
             stampaElementiArr(myArr);
     }
@@ -37,7 +36,6 @@ function stampaElementiArr(arr){
         icon.classList.add(element.family);
         icon.classList.add(element.prefix + element.name);
         icon.classList.add(element.color);
-        console.log(icon);
         nome.innerText = element.name.toUpperCase();
         card.append(icon);
         card.append(nome);
